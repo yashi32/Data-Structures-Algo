@@ -14,12 +14,12 @@ public class Solution {
 			ans.add(arr[j]);
 			
 
-			if(j-i+1<k)
+			if(j-i+1<k)  // When window size is less than k
 			{
 				j++;
 			}
 
-			else if(j-i+1==k)
+			else if(j-i+1==k)  // Case when window size hits k 
 			{
 				for(int l=0;l<ans.size();l++)
 				{
